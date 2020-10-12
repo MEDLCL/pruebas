@@ -17,7 +17,7 @@
                             </div>
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="nombre" id="nombre">
-                                <input type="hidden" name="idempleado" id="idempleado">
+                                <input type="hidden" name="id" id="id">
                             </div>
                         </div>
                         <div class="row form-group">
@@ -56,7 +56,17 @@
                                 <input type="text" class="form-control" name="pais" id="pais">
                             </div>
                         </div>
-
+                        <div class="row form-group">
+                            <div class="col-sm-2">
+                                <label for="logo" class="control-lable" style="position: relative; top:7px;">Logo:</label>
+                            </div>
+                            <div class="col-sm-10">
+                                <input type="file" name="imagen" id="imagen" class="form-control">
+                                <input type="hidden" name="imagenactual" id="imagenactual">
+                                <img src="" alt="" id="imagenmuestra" name="imagenmuestra" width="150px" height="120px">
+                            </div>
+                        </div>
+                        
                     </form>
                 </div>
                 <div class="modal-footer">
